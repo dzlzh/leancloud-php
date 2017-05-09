@@ -1,0 +1,23 @@
+{
+    "name": "dzlzh/leancloud",
+    "description": "leancloud php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DZLZH",
+            "email": "dzlzh@null.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "leancloud/leancloud-sdk": "^0.5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "leancloud\\": "src/"
+        }
+    }
+    
+}
